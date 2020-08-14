@@ -2,6 +2,7 @@ body {
     /* background-image: url('./imgs/FondoDegradado.svg'); */
     
     font-family: "Nunito", sans-serif;
+    overflow-x: hidden
 }
 #navigation,.navbar{
     background-image: url("imgs/Cielonubes.svg");
