@@ -1,5 +1,5 @@
 # Airportaxi
-Website for mew Airportaxi startup in Quito
+Website for new Airportaxi startup in Quito
 
 # Used
 - Vanilla Javascript
