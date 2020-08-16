@@ -36,7 +36,7 @@ body {
     display: flex;
 }
 #link-contacto{
-    margin: 0 100px;
+    /* margin: 0 100px; */
 }
 
 .section-inicio{
@@ -117,17 +117,23 @@ body {
 .scaled-item{
     transform: scale(0.7);
 }
-
-@media (max-width: 1200px) {
-    #headingGroup h1 {
-        font-weight: 100;
-        font-size: 3rem;
-    }
-    .blurb h2 {
-        font-size: 2rem;
-    }
+#api-whatsapp{
+    display: none;
+}
+#web-whatsapp{
+    display: block;
 }
 
+@media(max-device-width : 667px)
+{
+    #api-whatsapp{
+        display: block;
+    }
+
+    #web-whatsapp{
+        display: none;
+    }
+}
 
 
 

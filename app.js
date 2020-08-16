@@ -1,9 +1,12 @@
 const mobileUL = "https://api.whatsapp.com/send?phone=593983073778"
+const webUL = "https://web.whatsapp.com/send?phone=593983073778"
 
 const imageChange = document.getElementById('api-whatsapp')
 
-if( detectMob() || window.screen.width < 600){
+if(window.screen.width < 600){
     imageChange.href = mobileUL
+}else{
+    imageChange.href = webUL
 }
 
 
