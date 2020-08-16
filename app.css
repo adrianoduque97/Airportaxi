@@ -127,6 +127,15 @@ body {
     transform: scale(1.4);
 }
 
+.image{
+    position: relative;
+}
+.image a{
+    display: block;
+    position: absolute;
+    height: 19%;
+}
+
 @media(max-device-width : 667px)
 {
     #api-whatsapp,  #api-whatsapp2 {
