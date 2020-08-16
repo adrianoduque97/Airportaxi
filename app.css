@@ -114,20 +114,23 @@ body {
 .scaled-item{
     transform: scale(0.7);
 }
-#api-whatsapp{
+#api-whatsapp, #api-whatsapp2{
     display: none;
 }
-#web-whatsapp{
+#web-whatsapp, #web-whatsapp2{
     display: block;
+}
+.op{
+    opacity: 0.8;
 }
 
 @media(max-device-width : 667px)
 {
-    #api-whatsapp{
+    #api-whatsapp,  #api-whatsapp2 {
         display: block;
     }
 
-    #web-whatsapp{
+    #web-whatsapp, #web-whatsapp2{
         display: none;
     }
 }

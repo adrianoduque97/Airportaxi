@@ -22,7 +22,7 @@
 
 <body>
     <div class="">
-        <nav class="navbar navbar-expand-sm navbar-light  bg-light" id='mainNavbar'>
+        <nav class="navbar navbar-expand-sm navbar-light fixed-top  bg-light" id='mainNavbar'>
             <div class="container">
 
                 <button class="navbar-toggler" type="button" data-toggle="collapse"
@@ -41,15 +41,16 @@
                             </a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#contact-page" id="link-contacto">
-                                <img src="./imgs/Boton_Contacto.svg" class="img-inicio" alt="inicio">
-                            </a>
-                        </li>
-                        <li class="nav-item">
                             <a class="nav-link" href="#service-page" id="link-servicio">
                                 <img src="./imgs/Boton_Servicio.svg" class="img-inicio" alt="inicio">
                             </a>
                         </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#contact-page" id="link-contacto">
+                                <img src="./imgs/Boton_Contacto.svg" class="img-inicio" alt="inicio">
+                            </a>
+                        </li>
+                        
                     </ul>
                 </div>
             </div>
@@ -65,12 +66,12 @@
                     </div>
                 </div>
                 <div class="col-lg-6 ">
-                    <img class="img-fluid scaled-item" src="imgs/Autocorregido.svg"  alt="car">
+                    <img class="img-fluid scaled-item" src="imgs/Autocorregido.svg" style="margin-top: 100px;" alt="car">
                     <img class="img-fluid scaled-item" src="imgs/Viajar_alaero.svg" alt="viajar">
-                    <a href="https://api.whatsapp.com/send?phone=593983073778" id="api-whatsapp">
+                    <a href="https://api.whatsapp.com/send?phone=593963213955" id="api-whatsapp">
                         <img class="img-fluid scaled-item" src="imgs/NumeroyBOTON.svg" style="padding-bottom: 50px;" alt="whatsapp">
                     </a>
-                    <a href="https://web.whatsapp.com/send?phone=593983073778" id="web-whatsapp">
+                    <a href="https://web.whatsapp.com/send?phone=593963213955" id="web-whatsapp">
                         <img class="img-fluid scaled-item" src="imgs/NumeroyBOTON.svg" style="padding-bottom: 50px;" alt="whatsapp">
                     </a>
                 </div>
@@ -124,7 +125,12 @@
                     <div class="col-lg-12 text-center">
                         <div id="headingGroup" class="d-none d-md-block mt-5">
                             <img src="./imgs/Viajar_alaero.svg" style="transform: scale(0.7);" alt="viajar">
-                            <img src="./imgs/hablemos.png" style="transform: scale(0.7);" alt="whatsapp">
+                            <a href="https://api.whatsapp.com/send?phone=593963213955" id="api-whatsapp2">
+                                <img src="./imgs/hablemos.png" style="transform: scale(0.7);" alt="whatsapp">
+                            </a>
+                            <a href="https://web.whatsapp.com/send?phone=593963213955" id="web-whatsapp2">
+                                <img src="./imgs/hablemos.png" style="transform: scale(0.7);" alt="whatsapp">
+                            </a>
                         </div>
                     </div>
                 </div>
@@ -165,6 +171,7 @@
             $(document).scroll(function () {
                 var $nav = $("#mainNavbar");
                 $nav.toggleClass("scrolled", $(this).scrollTop() > $nav.height());
+                $nav.addClass("op")
             });
         });
     </script>
