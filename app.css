@@ -35,9 +35,6 @@ body {
     width: 70%;
     display: flex;
 }
-#link-contacto{
-    /* margin: 0 100px; */
-}
 
 .section-inicio{
     background-image: url('./imgs/FondoDegradado.svg');
