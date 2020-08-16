@@ -123,6 +123,9 @@ body {
 .op{
     opacity: 0.8;
 }
+#tarjeta-text{
+    transform: scale(1.4);
+}
 
 @media(max-device-width : 667px)
 {
@@ -132,6 +135,9 @@ body {
 
     #web-whatsapp, #web-whatsapp2{
         display: none;
+    }
+    #tarjeta-text{
+        transform: scale(0.95);
     }
 }
 
