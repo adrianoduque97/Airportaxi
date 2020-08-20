@@ -135,6 +135,12 @@ body {
     position: absolute;
     height: 19%;
 }
+#responsive-header{
+    display: none;
+}
+#regular-header{
+    display: block;
+}
 
 @media(max-device-width : 667px)
 {
@@ -148,6 +154,13 @@ body {
     #tarjeta-text{
         transform: scale(0.95);
     }
+    #responsive-header{
+        display: block;
+    }
+    #regular-header{
+        display: none;
+    }
+
 }
 
 
