@@ -141,6 +141,15 @@ body {
 #regular-header{
     display: block;
 }
+#peaje-img{
+    transform: scale(1.1);
+}
+#peaje-txt{
+    margin-top: 10rem;
+}
+#auto-img{
+    margin-top: 100px;
+}
 
 @media(max-device-width : 667px)
 {
@@ -159,6 +168,25 @@ body {
     }
     #regular-header{
         display: none;
+    }
+    #peaje-img{
+        transform: scale(0.8);
+    }
+    #peaje-txt{
+        margin-top: 2rem;
+    }
+    .section-servicio{
+        background-image: url('./imgs/finalU/FondoResponsive.png');
+        width: 100%;
+        height: 100%;
+    
+      /* Center and scale the image nicely */
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+    }
+    #auto-img{
+        margin-top: 0px;
     }
 
 }
