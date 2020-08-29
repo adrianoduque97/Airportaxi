@@ -18,7 +18,7 @@ body {
 .service-nav{
     background-image: url(" ./imgs/Cielo.svg");
     background-size: cover; 
-    background-position: center;  
+    /* background-position: center;   */
     background-repeat: no-repeat; 
 }
 
@@ -135,17 +135,17 @@ body {
     position: absolute;
     height: 19%;
 }
-#responsive-header{
+#responsive-header, #responsive-header-serv{
     display: none;
 }
-#regular-header{
+#regular-header, #header-serv{
     display: block;
 }
 #peaje-img{
     transform: scale(1.1);
 }
 #peaje-txt{
-    margin-top: 10rem;
+    margin-top: 15rem;
 }
 #auto-img{
     margin-top: 100px;
@@ -153,11 +153,11 @@ body {
 
 @media(max-device-width : 667px)
 {
-    #api-whatsapp,  #api-whatsapp2 {
+    #api-whatsapp,  #api-whatsapp2, #responsive-header-serv {
         display: block;
     }
 
-    #web-whatsapp, #web-whatsapp2{
+    #web-whatsapp, #web-whatsapp2,  #header-serv{
         display: none;
     }
     #tarjeta-text{
@@ -187,6 +187,12 @@ body {
     }
     #auto-img{
         margin-top: 0px;
+    }
+    #texto-mask{
+        margin-top: 10rem;
+    }
+    #header-contacto{
+        transform: scale(0.68);
     }
 
 }
