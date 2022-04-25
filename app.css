@@ -150,6 +150,9 @@ body {
 #auto-img{
     margin-top: 100px;
 }
+#tarjetilla{
+    transform: scale(1);
+}
 
 @media(max-device-width : 667px)
 {
@@ -193,6 +196,10 @@ body {
     }
     #header-contacto{
         transform: scale(0.68);
+    }
+
+    #tarjetilla{
+        transform: scale(0.8);
     }
 
 }
